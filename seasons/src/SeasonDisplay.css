@@ -1,0 +1,41 @@
+.season-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.summer {
+    background-color: rgb(255, 202, 153);
+}
+
+.winter {
+    background-color: rgb(189, 231, 255);
+}
+
+.summer .season-icon {
+    color: rgb(228, 117, 13);
+}
+
+.winter .season-icon {
+    color: rgb(3, 114, 206);
+}
+
+.season-text {
+    color: white;
+    margin-top: .4em;
+}
+
+.summer .season-text{
+    background-color: rgb(228, 117, 13);
+}
+
+.winter .season-text {
+    background-color: rgb(3, 114, 206);
+}
